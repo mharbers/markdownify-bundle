@@ -1,0 +1,16 @@
+{
+  "name": "mharbers/markdownify-bundle",
+  "type": "symfony-bundle",
+  "description": "A Symfony2 Bundle for the pixel418/markdownify library",
+  "keywords": ["markdown","markdownify","symfony2"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require": {
+    "pixel418/markdownify": "^2",
+  },
+  "autoload": {
+    "psr-4": {
+      "Mharbers\\MarkdownifyBundle\\": "src"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+services:
+  mharbers_markdownify.converter:
+    class: Markdownify\Converter
